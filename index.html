@@ -3,110 +3,169 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Khang Nguyen — Agentic Developer</title>
-  <meta name="description" content="Khang Nguyen builds web tools with AI coding agents, human review, and verification evidence." />
+  <title>Khang Nguyen - AI workflow portfolio</title>
+  <meta name="description" content="Khang Nguyen builds small web tools and AI-assisted workflows with clear verification evidence." />
+  <meta property="og:title" content="Khang Nguyen - AI workflow portfolio" />
+  <meta property="og:description" content="AI workflow builder focused on practical web tools, agent-assisted delivery, and honest proof." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <main class="site-shell">
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Khang Nguyen home">
+      <span class="mark">K</span>
+      <span>Khang Nguyen</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#proof">Proof</a>
+      <a href="https://github.com/im-khang">GitHub</a>
+    </nav>
+    <a class="nav-cta" href="mailto:khangdnguyen.work@gmail.com">Email</a>
+  </header>
+
+  <main id="top">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="eyebrow">Agentic Developer · AI Workflow Builder</div>
-      <h1 id="hero-title">Hi, I’m Khang. I use AI coding agents to turn messy team needs into usable web tools.</h1>
-      <p class="hero-copy">I treat AI as a technical collaborator, not autopilot: I break work into tasks, provide context, review generated code, debug issues, run checks, and own the final product.</p>
-      <div class="hero-actions">
-        <a class="button primary" href="mailto:khangdnguyen.work@gmail.com">Contact me</a>
-        <a class="button secondary" href="https://github.com/im-khang">GitHub</a>
+      <div class="hero-copy">
+        <p class="kicker">AI workflow portfolio</p>
+        <h1 id="hero-title">Hi, I’m Khang. I build practical web tools with AI agents and human review.</h1>
+        <p class="lead">I turn unclear team needs into small, testable systems: pages, automations, dashboards, and application workflows.</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button primary" href="#work">View work</a>
+          <a class="button ghost" href="mailto:khangdnguyen.work@gmail.com">Contact</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Current working board">
+        <div class="panel-top">
+          <span>Working board</span>
+          <span>Live site</span>
+        </div>
+        <div class="panel-feature">
+          <p class="panel-label">Current focus</p>
+          <h2>Agent-assisted portfolio system</h2>
+          <p>Design, build, verify, publish. Keep claims small until proof exists.</p>
+        </div>
+        <div class="panel-grid">
+          <div>
+            <span>Mode</span>
+            <strong>Human checked</strong>
+          </div>
+          <div>
+            <span>Output</span>
+            <strong>Web tools</strong>
+          </div>
+          <div>
+            <span>Evidence</span>
+            <strong>Tests, screenshots</strong>
+          </div>
+          <div>
+            <span>Stack</span>
+            <strong>HTML, CSS, agents</strong>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="capability-strip" aria-label="Capabilities">
+      <span>prompting</span>
+      <span>agent workflows</span>
+      <span>web UI</span>
+      <span>automation maps</span>
+      <span>verification</span>
+    </section>
+
+    <section id="work" class="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <h2 id="work-title">Work that can be checked.</h2>
+        <p>No inflated metrics. No pretend production claims. Each item needs a repo, screenshot, command output, or live URL.</p>
+      </div>
+      <div class="work-grid">
+        <article class="work-card featured">
+          <div class="work-meta">Live now</div>
+          <h3>AI workflow portfolio</h3>
+          <p>This site documents how I use agents, where proof exists, and where claims still need live evidence.</p>
+          <a href="https://im-khang.com">Open site</a>
+        </article>
+        <article class="work-card image-card">
+          <div class="texture" aria-hidden="true"></div>
+          <h3>Website improvement lab</h3>
+          <p>Before and after redesign work with screenshots, mobile checks, and concise review notes.</p>
+        </article>
+        <article class="work-card compact">
+          <h3>JobOps workflow</h3>
+          <p>Application folders, JD parsing, tailored materials, tracking, and email drafts.</p>
+        </article>
+        <article class="work-card compact muted">
+          <h3>Analytics notes</h3>
+          <p>Small dashboards and manager-ready summaries from forms, events, and website behavior.</p>
+        </article>
       </div>
     </section>
 
-    <section class="proof-grid" aria-label="Portfolio proof pillars">
-      <article class="card">
-        <span class="card-kicker">01</span>
-        <h2>Website + UI build</h2>
-        <p>Responsive pages, campaign microsites, design-system respect, visual QA, and content structure.</p>
-      </article>
-      <article class="card">
-        <span class="card-kicker">02</span>
-        <h2>Website enhancement</h2>
-        <p>Before/after redesigns with AI-assisted critique, implementation, screenshots, and browser checks.</p>
-      </article>
-      <article class="card">
-        <span class="card-kicker">03</span>
-        <h2>Website analytics</h2>
-        <p>Event/form data, SQL/Python analysis, dashboards, and manager-ready insight notes from web behavior.</p>
-      </article>
-    </section>
-
-    <section class="workflow" aria-labelledby="workflow-title">
-      <div>
-        <div class="eyebrow">Controlled workflow</div>
-        <h2 id="workflow-title">How I use agents</h2>
-        <p>I ask agents to help with planning, coding, debugging, refactor, docs, and tests. Human checks stay explicit: requirement fit, design quality, code behavior, and public claim boundary.</p>
+    <section id="process" class="process" aria-labelledby="process-title">
+      <div class="process-copy">
+        <h2 id="process-title">Agents help. I still own the result.</h2>
+        <p>My useful pattern is boring in the right way: narrow task, clear context, real checks, then a human decision.</p>
       </div>
-      <ol class="steps">
-        <li><strong>Frame:</strong> define business need, user, acceptance criteria.</li>
-        <li><strong>Decompose:</strong> split into small tasks and evidence requirements.</li>
-        <li><strong>Build:</strong> use AI coding tools with repo context and tool boundaries.</li>
-        <li><strong>Verify:</strong> run tests, browser checks, screenshots, and review logs.</li>
+      <ol class="process-list">
+        <li>
+          <span>Frame</span>
+          <p>Define user, need, acceptance criteria, and what proof should exist.</p>
+        </li>
+        <li>
+          <span>Build</span>
+          <p>Use agents for drafts, code, refactors, research, and test ideas.</p>
+        </li>
+        <li>
+          <span>Check</span>
+          <p>Run scripts, inspect browser output, fix broken claims, and keep notes.</p>
+        </li>
+        <li>
+          <span>Ship</span>
+          <p>Publish only after the artifact works and the evidence matches the claim.</p>
+        </li>
       </ol>
     </section>
 
-    <section class="maturity" aria-labelledby="maturity-title">
-      <div class="eyebrow">Claim boundary</div>
-      <h2 id="maturity-title">Tools / concepts maturity</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>MATURITY</th>
-              <th>TOOLS / CONCEPTS</th>
-              <th>CLAIM BOUNDARY</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Proven locally</td>
-              <td>Agentic task planning, Hermes Agent, OpenClaw concepts, HTML/CSS, GitHub, Google Sheets, Notion, local workflow automation</td>
-              <td>Can show local artifacts, screenshots, docs, and command outputs.</td>
-            </tr>
-            <tr>
-              <td>Blueprint-ready</td>
-              <td>n8n workflows, APIs, webhooks, Make/Zapier, Airtable, Slack/Gmail/CRM handoffs, CMS integration patterns</td>
-              <td>Can design and demo scoped workflows; must label simulations clearly.</td>
-            </tr>
-            <tr>
-              <td>Need live proof</td>
-              <td>Production n8n deployment, authenticated API workflow with retries/logs, live CRM automation, ROI metrics</td>
-              <td>Do not claim until live artifacts and measurement evidence exist.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section class="cases" aria-labelledby="cases-title">
-      <div class="eyebrow">Proof roadmap</div>
-      <h2 id="cases-title">Current proof projects</h2>
-      <div class="case-list">
-        <article>
-          <h3>Project 1 — Agentic Portfolio Site</h3>
-          <p>Status: current page. Evidence: source HTML/CSS, browser checks, screenshots, workflow notes, and metrics.</p>
+    <section id="proof" class="proof" aria-labelledby="proof-title">
+      <h2 id="proof-title">Claim boundary</h2>
+      <div class="proof-rows" role="list">
+        <article role="listitem">
+          <span>Proven locally</span>
+          <p>Agent task planning, Hermes workflows, HTML/CSS, GitHub, Google Sheets, Notion, local automation.</p>
         </article>
-        <article>
-          <h3>Project 2 — Website Visual Enhancement Lab</h3>
-          <p>Status: local plan only until built. Goal: before/after website upgrade with responsive screenshots and QA notes.</p>
+        <article role="listitem">
+          <span>Ready to prototype</span>
+          <p>n8n, APIs, webhooks, Airtable, Slack or Gmail handoffs, and lightweight CRM flows.</p>
         </article>
-        <article>
-          <h3>Project 3 — Website Analytics Insight System</h3>
-          <p>Status: local plan only until built. Goal: analyze website event/form data and produce dashboard insights.</p>
+        <article role="listitem">
+          <span>Needs live proof</span>
+          <p>Production n8n deployment, authenticated workflows with retries, CRM automation, and ROI measurement.</p>
         </article>
       </div>
     </section>
-
-    <footer>
-      <p>HCMC, Vietnam · khangdnguyen.work@gmail.com · (+84) 918 168 005</p>
-      <p><a href="https://www.linkedin.com/in/khangnguyenduy3110/">LinkedIn</a> · <a href="https://github.com/im-khang">GitHub</a></p>
-    </footer>
   </main>
+
+  <footer class="footer">
+    <p>HCMC, Vietnam</p>
+    <p><a href="mailto:khangdnguyen.work@gmail.com">khangdnguyen.work@gmail.com</a></p>
+    <p><a href="tel:+84918168005">(+84) 918 168 005</a></p>
+    <p><a href="https://www.linkedin.com/in/khangnguyenduy3110/">LinkedIn</a> <a href="https://github.com/im-khang">GitHub</a></p>
+  </footer>
+
+  <script>
+    const revealItems = document.querySelectorAll('.work-card, .process-list li, .proof-rows article');
+    const observer = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) entry.target.classList.add('in-view');
+      }
+    }, { threshold: 0.18 });
+    revealItems.forEach((item) => observer.observe(item));
+  </script>
 </body>
 </html>

@@ -14,27 +14,27 @@ class LinkParser(HTMLParser):
         super().__init__()
         self.links = []
         self.headings = []
-        self.tables = 0
     def handle_starttag(self, tag, attrs):
         d = dict(attrs)
         if tag == 'a':
             self.links.append(d.get('href', ''))
-        if tag in {'h1','h2','h3'}:
+        if tag in {'h1', 'h2', 'h3'}:
             self.headings.append(tag)
-        if tag == 'table':
-            self.tables += 1
 
 parser = LinkParser()
 parser.feed(html)
+visible_text = re.sub(r'<[^>]+>', ' ', html)
 checks = {
-    'has_title': '<title>Khang Nguyen — Agentic Developer</title>' in html,
+    'has_title': '<title>Khang Nguyen - AI workflow portfolio</title>' in html,
     'has_h1': 'Hi, I’m Khang' in html,
     'has_claim_boundary': 'Claim boundary' in html,
-    'has_maturity_table': parser.tables == 1,
-    'has_contact': 'khangdnguyen.work@gmail.com' in html and '+84' in html,
+    'has_work_section': 'Work that can be checked.' in html,
+    'has_contact': 'khangdnguyen.work@gmail.com' in html and '918 168 005' in html,
     'has_no_empty_case_placeholder': 'coming soon' not in html.lower(),
-    'has_mobile_media_query': '@media (max-width: 820px)' in css,
-    'has_responsive_grid': 'grid-template-columns: repeat(3, 1fr)' in css,
+    'has_mobile_media_query': '@media (max-width:900px)' in css and '@media (max-width:560px)' in css,
+    'has_responsive_grid': 'grid-template-columns:1fr' in css,
+    'has_reduced_motion': 'prefers-reduced-motion' in css,
+    'has_no_em_dash': '—' not in html and '–' not in html,
     'all_links_have_href': all(bool(x) for x in parser.links),
 }
 failed = [name for name, ok in checks.items() if not ok]
