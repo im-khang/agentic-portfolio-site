@@ -35,8 +35,8 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="kicker">AI workflow portfolio</p>
-        <h1 id="hero-title">Hi, I’m Khang!</h1>
-        <p class="lead">I build practical web tools with AI agents and human review.</p>
+        <h1 id="hero-title"><span class="word-pop">Hi, I’m Khang!</span></h1>
+        <p class="lead">I build practical web tools with <span class="text-glow">AI agents</span> and <span class="text-glow">human review</span>.</p>
         <p class="supporting-lead">I turn unclear team needs into small, testable systems: pages, automations, dashboards, and application workflows.</p>
         <div class="hero-actions" aria-label="Primary actions">
           <a class="button primary" href="#work">View work</a>
@@ -75,7 +75,7 @@
       </aside>
     </section>
 
-    <section class="capability-strip" aria-label="AI and data analytics skills">
+    <section class="capability-strip reveal-section" aria-label="AI and data analytics skills">
       <span>Excel + Power Query</span>
       <span>Python analytics</span>
       <span>SQL</span>
@@ -83,9 +83,9 @@
       <span>AI agent workflows</span>
     </section>
 
-    <section id="work" class="work" aria-labelledby="work-title">
+    <section id="work" class="work reveal-section" aria-labelledby="work-title">
       <div class="section-heading">
-        <h2 id="work-title">Work that can be checked</h2>
+        <h2 id="work-title" aria-label="Work that can be checked">Work that can be <span class="text-glow">checked</span></h2>
         <p>No inflated metrics. No pretend production claims. Each item needs a repo, screenshot, command output, or live URL.</p>
       </div>
       <div class="work-grid">
@@ -103,9 +103,9 @@
       </div>
     </section>
 
-    <section id="process" class="process" aria-labelledby="process-title">
+    <section id="process" class="process reveal-section" aria-labelledby="process-title">
       <div class="process-copy">
-        <h2 id="process-title">Agent harness engineering mechanism</h2>
+        <h2 id="process-title">Agent harness engineering <span class="text-glow">mechanism</span></h2>
         <p>I use the harness idea in daily work: humans steer, agents execute, and the system checks outputs before anything ships.</p>
       </div>
       <ol class="process-list">
@@ -128,28 +128,39 @@
       </ol>
     </section>
 
-    <section class="cta-section" aria-labelledby="cta-title">
+    <section class="cta-section reveal-section" aria-labelledby="cta-title">
       <div>
-        <h2 id="cta-title">Let’s build something useful</h2>
+        <h2 id="cta-title" aria-label="Let’s build something useful">Let’s build something <span class="text-glow">useful</span></h2>
         <p>If you need a small web tool, workflow prototype, or AI-assisted build with real verification, send me the context and goal.</p>
       </div>
       <div class="cta-actions">
         <a class="button primary" href="mailto:khangdnguyen.work@gmail.com">Email me</a>
         <a class="button ghost" href="https://www.linkedin.com/in/khangnguyenduy3110/">LinkedIn</a>
+        <a class="button ghost github" href="https://github.com/im-khang">GitHub</a>
       </div>
     </section>
 
   </main>
 
-  <footer class="footer">
-    <p>HCMC, Vietnam</p>
-    <p><a href="mailto:khangdnguyen.work@gmail.com">khangdnguyen.work@gmail.com</a></p>
-    <p><a href="tel:+84918168005">(+84) 918 168 005</a></p>
-    <p><a href="https://www.linkedin.com/in/khangnguyenduy3110/">LinkedIn</a> <a href="https://github.com/im-khang">GitHub</a></p>
+  <footer class="footer" aria-label="Contact marquee">
+    <div class="footer-marquee">
+      <div class="footer-track">
+        <a href="mailto:khangdnguyen.work@gmail.com">khangdnguyen.work@gmail.com</a>
+        <a href="tel:+849****8005">Call: (+84) 918 168 005</a>
+        <a href="https://www.linkedin.com/in/khangnguyenduy3110/">LinkedIn</a>
+        <a href="https://github.com/im-khang">GitHub</a>
+        <span>HCMC, Vietnam</span>
+        <a href="mailto:khangdnguyen.work@gmail.com">khangdnguyen.work@gmail.com</a>
+        <a href="tel:+849****8005">Call: (+84) 918 168 005</a>
+        <a href="https://www.linkedin.com/in/khangnguyenduy3110/">LinkedIn</a>
+        <a href="https://github.com/im-khang">GitHub</a>
+        <span>HCMC, Vietnam</span>
+      </div>
+    </div>
   </footer>
 
   <script>
-    const revealItems = document.querySelectorAll('.work-card, .process-list li, .proof-rows article');
+    const revealItems = document.querySelectorAll('.reveal-section, .work-card, .process-list li, .proof-rows article, .skill-board article, .capability-strip span');
     const observer = new IntersectionObserver((entries) => {
       for (const entry of entries) {
         if (entry.isIntersecting) entry.target.classList.add('in-view');
