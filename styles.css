@@ -106,3 +106,19 @@ section{scroll-margin-top:110px}.section-heading{max-width:700px;margin-bottom:3
 @media (prefers-reduced-motion:reduce){.word-pop,.hero-copy,.hero-panel,.capability-strip,.section-heading,.cta-section,.footer-track{animation:none!important}.reveal-section{opacity:1;transform:none}.capability-strip span:before,.work-card:before,.process-list li:before,.skill-board article:before{display:none}}
 
 .work-card,.process-list li,.proof-rows article{opacity:1!important;transform:none}
+
+
+/* richer mouse hover effects */
+.work-grid{grid-template-columns:minmax(0,1fr)}
+.work-card{min-height:300px}
+.work-card:after,.process-list li:after,.skill-board article:after,.cta-section:after,.button:after,.nav-cta:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .25s ease;background:radial-gradient(180px circle at var(--mx,50%) var(--my,50%),rgba(216,255,95,.18),transparent 58%)}
+.work-card:hover:after,.process-list li:hover:after,.skill-board article:hover:after,.cta-section:hover:after,.button:hover:after,.nav-cta:hover:after{opacity:1}
+.work-card:hover{box-shadow:0 28px 90px rgba(216,255,95,.09),0 30px 80px rgba(0,0,0,.36);filter:saturate(1.08)}
+.process-list li:hover,.skill-board article:hover{box-shadow:0 18px 60px rgba(216,255,95,.08)}
+.button,.nav-cta,.cta-section{position:relative;overflow:hidden}
+.button:hover,.nav-cta:hover{letter-spacing:.02em;box-shadow:0 0 0 1px rgba(216,255,95,.18),0 12px 36px rgba(216,255,95,.08)}
+.button.primary:hover{box-shadow:0 0 0 1px rgba(216,255,95,.45),0 16px 48px rgba(216,255,95,.18)}
+.section-heading h2 .text-glow,.process h2 .text-glow,.cta-section h2 .text-glow{display:inline-block;transition:transform .25s ease,text-shadow .25s ease}
+.section-heading:hover h2 .text-glow,.process:hover h2 .text-glow,.cta-section:hover h2 .text-glow{transform:translateY(-2px) skewX(-4deg);text-shadow:0 0 32px rgba(216,255,95,.62)}
+.capability-strip span:hover{color:var(--accent);box-shadow:0 10px 36px rgba(216,255,95,.08)}
+@media (max-width:900px){.work-card{min-height:240px}}

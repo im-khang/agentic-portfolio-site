@@ -95,11 +95,7 @@
           <p>This site documents how I use agents, where proof exists, and where claims still need live evidence.</p>
           <a href="https://im-khang.com">Open site</a>
         </article>
-        <article class="work-card image-card">
-          <div class="texture" aria-hidden="true"></div>
-          <h3>Website improvement lab</h3>
-          <p>Before and after redesign work with screenshots, mobile checks, and concise review notes.</p>
-        </article>
+
       </div>
     </section>
 
@@ -167,6 +163,15 @@
       }
     }, { threshold: 0.18 });
     revealItems.forEach((item) => observer.observe(item));
+
+    const hoverTargets = document.querySelectorAll('.work-card, .process-list li, .skill-board article, .cta-section, .button, .nav-cta');
+    hoverTargets.forEach((target) => {
+      target.addEventListener('pointermove', (event) => {
+        const rect = target.getBoundingClientRect();
+        target.style.setProperty('--mx', `${event.clientX - rect.left}px`);
+        target.style.setProperty('--my', `${event.clientY - rect.top}px`);
+      });
+    });
   </script>
 </body>
 </html>
