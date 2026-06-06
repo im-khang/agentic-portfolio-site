@@ -9,12 +9,12 @@ Build and ship a concise portfolio website for Khang that communicates practical
 1. Interpret positioning constraints and public claim boundaries.
 2. Generate and refine visual direction through Open Design.
 3. Use AI support for copy, structure, QA, and iteration.
-4. Apply human review to claims, tone, and project naming.
+4. Apply verification to claims, tone, and project naming.
 5. Verify deployed routes and GitHub links after release.
 
 ## Human review points
 
-- Portfolio wording says “practical solutions,” not generic web tools.
+- Portfolio wording says “practical solutions,” not generic practical solutions.
 - Project cards show clean names and GitHub links only.
 - Public content does not expose internal implementation notes.
 - Claims stay tied to visible evidence: repo, screenshots, command output, or live URL.

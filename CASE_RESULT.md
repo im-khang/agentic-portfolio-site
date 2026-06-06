@@ -2,7 +2,7 @@
 
 ## Project
 
-Agentic Portfolio Site
+AI Portfolio Delivery System
 
 ## Outcome
 
@@ -11,7 +11,7 @@ A deployed portfolio website that presents Khang’s practical-solution directio
 Live site:
 
 ```text
-https://01-agentic-portfolio-site.vercel.app/
+https://01-ai-portfolio-delivery-system.vercel.app/
 ```
 
 ## What this showcases
@@ -46,4 +46,4 @@ https://01-agentic-portfolio-site.vercel.app/
 
 ## Claim boundary
 
-This case proves AI-assisted portfolio direction, Open Design collaboration, human review, and public project-link curation. It does not claim backend systems, live production automations, or enterprise integrations.
+This case proves AI-assisted portfolio direction, Open Design collaboration, verification, and public project-link curation. It does not claim backend systems, live production automations, or enterprise integrations.

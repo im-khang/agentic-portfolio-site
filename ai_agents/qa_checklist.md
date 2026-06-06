@@ -2,7 +2,7 @@
 
 ## Public content
 
-- [ ] Direction says practical solutions, not generic web tools.
+- [ ] Direction says practical solutions, not generic practical solutions.
 - [ ] Project cards show clean project names and GitHub links.
 - [ ] Public pages stay focused on project outcomes, not internal work notes.
 - [ ] Contact links and project links are valid.

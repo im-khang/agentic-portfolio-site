@@ -1,8 +1,8 @@
-# Agentic Portfolio Site
+# AI Portfolio Delivery System
 
-A portfolio case study about using AI agents, Open Design, and human review to ship a practical personal website direction.
+A portfolio case study about using AI agents, Open Design, and verification to ship a practical personal website direction.
 
-Live site: https://01-agentic-portfolio-site.vercel.app/
+Live site: https://01-ai-portfolio-delivery-system.vercel.app/
 
 ## What this project demonstrates
 
@@ -14,17 +14,17 @@ Live site: https://01-agentic-portfolio-site.vercel.app/
 
 ## Featured project links
 
-- Agentic Portfolio Site: https://github.com/im-khang/agentic-portfolio-site
-- Sales Forecasting Decision Support: https://github.com/im-khang/Sales-Forecasting-Using-PyCaret
-- Superstore Performance Analytics: https://github.com/im-khang/Superstore-Dashboard
-- AdventureWorks BI Operations: https://github.com/im-khang/AdventureWorks-Dashboard
+- AI Portfolio Delivery System: https://github.com/im-khang/ai-portfolio-delivery-system
+- Sales Forecasting Decision Support: https://github.com/im-khang/sales-forecasting-decision-support
+- Superstore Performance Analytics: https://github.com/im-khang/superstore-performance-analytics
+- AdventureWorks BI Operations: https://github.com/im-khang/adventureworks-bi-operations
 
 ## Workflow
 
 1. Define portfolio direction and claim boundaries.
 2. Explore visual direction in Open Design.
 3. Use AI agents for copy, structure, QA, and iteration.
-4. Apply human review to claims, tone, and project naming.
+4. Apply verification to claims, tone, and project naming.
 5. Verify live site output and project links.
 
 ## Repository scope
@@ -43,4 +43,4 @@ ai_agents/prompts.md
 
 ## Claim boundary
 
-This project demonstrates AI-assisted portfolio direction, Open Design collaboration, human review, and public project-link curation. It does not claim backend systems, production automation, or enterprise integrations.
+This project demonstrates AI-assisted portfolio direction, Open Design collaboration, verification, and public project-link curation. It does not claim backend systems, production automation, or enterprise integrations.
