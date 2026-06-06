@@ -29,19 +29,19 @@ MIRRORED_PAGES_TO_PATCH = [
 ]
 
 COPY_REPLACEMENTS = {
-    "Khang Nguyen builds small web tools and AI-assisted workflows with clear verification evidence.":
+    "Khang Nguyen builds legacy positioning and AI-assisted workflows with clear verification evidence.":
         "Khang Nguyen builds practical solutions and AI-assisted workflows with clear verification evidence.",
-    "AI workflow builder focused on practical web tools, agent-assisted delivery, and honest proof.":
+    "AI workflow builder focused on legacy positioning, agent-assisted delivery, and honest proof.":
         "AI workflow builder focused on practical solutions, agent-assisted delivery, and honest proof.",
-    "I build practical web tools with <span class=\"text-glow\">AI agents</span> and <span class=\"text-glow\">human review</span>.":
+    "I build legacy-positioning outputs with <span class=\"text-glow\">AI agents</span> and <span class=\"text-glow\">human review</span>.":
         "I build practical solutions with <span class=\"text-glow\">AI agents</span> and <span class=\"text-glow\">human review</span>.",
-    "I build practical web tools with <span class=\"text-glow\">AI agents</span>, data tools, and human review.":
+    "I build legacy-positioning outputs with <span class=\"text-glow\">AI agents</span>, data tools, and human review.":
         "I build practical solutions with <span class=\"text-glow\">AI agents</span>, data tools, and human review.",
-    "I turn unclear team needs into small, testable systems: pages, automations, dashboards, and application workflows.":
+    "I turn unclear team needs into small, testable systems: legacy pages, automations, dashboards, and legacy workflows.":
         "I turn unclear team needs into small, testable solutions: automations, dashboards, workflows, and decision support systems.",
-    "My focus is small, testable systems: pages, automations, dashboards, and application workflows that can be checked with real evidence.":
+    "My focus is small, testable systems: legacy pages, automations, dashboards, and legacy workflows that can be checked with real evidence.":
         "My focus is small, testable solutions: automations, dashboards, workflows, and decision support systems that can be checked with real evidence.",
-    "If you need a small web tool, workflow prototype, or AI-assisted build with real verification, send me the context and goal.":
+    "If you need a legacy-positioning output, workflow prototype, or AI-assisted build with real verification, send me the context and goal.":
         "If you need a practical solution, workflow prototype, or AI-assisted build with real verification, send me the context and goal.",
 }
 
