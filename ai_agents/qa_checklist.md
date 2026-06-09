@@ -2,7 +2,7 @@
 
 ## Public content
 
-- [x] Direction says practical solutions, not generic web tools.
+- [x] Direction says practical solutions, not generic website templates.
 - [x] Project proof documents Hermes/Open Design workflow.
 - [x] Public pages stay focused on project outcomes, not internal work notes.
 - [x] Current live site URL is documented.
@@ -14,7 +14,7 @@
 - [x] `https://www.im-khang.com/` returned HTTP `200` on 2026-06-09.
 - [x] `https://im-khang.com` redirected to `https://www.im-khang.com/`.
 - [x] Live HTML contained markers: `Khang`, `Hermes`, `AI`, `portfolio`.
-- [x] Old `https://01-agentic-portfolio-site.vercel.app/` returned Vercel `DEPLOYMENT_NOT_FOUND` and should not be used as active URL.
+- [x] Old `the previous Vercel preview URL` returned Vercel `DEPLOYMENT_NOT_FOUND` and should not be used as active URL.
 
 ## Repository hygiene
 

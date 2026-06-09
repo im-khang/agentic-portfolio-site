@@ -26,7 +26,7 @@ Hermes was used as an autonomous operator for the website proof, including:
 
 ## Human review points
 
-- Portfolio wording says practical solutions, not generic web tools.
+- Portfolio wording says practical solutions, not generic website templates.
 - Project proof uses real GitHub/live links.
 - Public content does not expose private implementation notes.
 - Claims stay tied to visible evidence: repo, command output, live URL, or verified file.
@@ -52,7 +52,7 @@ https://www.im-khang.com/
 Dead/stale URL found:
 
 ```text
-https://01-agentic-portfolio-site.vercel.app/
+the previous Vercel preview URL
 ```
 
 This proof repo documents the Hermes + Open Design workflow and current live deployment state.

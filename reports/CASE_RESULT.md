@@ -41,7 +41,7 @@ Verified on 2026-06-09:
 - `https://www.im-khang.com/` returned HTTP `200`.
 - `https://im-khang.com` redirected to `https://www.im-khang.com/`.
 - Live page content contained expected markers: `Khang`, `Hermes`, `AI`, `portfolio`.
-- Old Vercel URL `https://01-agentic-portfolio-site.vercel.app/` returned `DEPLOYMENT_NOT_FOUND` and is no longer active.
+- Old Vercel URL `the previous Vercel preview URL` returned `DEPLOYMENT_NOT_FOUND` and is no longer active.
 
 ## Recruiter-relevant skills
 

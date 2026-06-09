@@ -23,7 +23,7 @@ Hermes action:
 - inspected local repo remotes
 - checked GitHub repo metadata with `gh`
 - ran HTTP checks for old and current URLs
-- found old `01-agentic-portfolio-site.vercel.app` deployment dead
+- found old `previous Vercel preview URL` deployment dead
 - verified `https://www.im-khang.com/` is live
 
 ### 2. README proof documentation
@@ -74,7 +74,7 @@ https://www.im-khang.com/
 ## Dead/stale URL found during verification
 
 ```text
-https://01-agentic-portfolio-site.vercel.app/
+the previous Vercel preview URL
 ```
 
 Status observed: Vercel `DEPLOYMENT_NOT_FOUND`.

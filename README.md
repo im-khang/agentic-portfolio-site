@@ -30,7 +30,7 @@ This project demonstrates a practical agentic workflow:
 
 Older deployment note:
 
-- `https://01-agentic-portfolio-site.vercel.app/` returned Vercel `DEPLOYMENT_NOT_FOUND` during verification and is no longer the active public URL.
+- `the previous Vercel preview URL` returned Vercel `DEPLOYMENT_NOT_FOUND` during verification and is no longer the active public URL.
 
 ## Why Hermes matters here
 
