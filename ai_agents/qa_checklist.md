@@ -2,20 +2,30 @@
 
 ## Public content
 
-- [ ] Direction says practical solutions, not generic practical solutions.
-- [ ] Project cards show clean project names and GitHub links.
-- [ ] Public pages stay focused on project outcomes, not internal work notes.
-- [ ] Contact links and project links are valid.
+- [x] Direction says practical solutions, not generic web tools.
+- [x] Project proof documents Hermes/Open Design workflow.
+- [x] Public pages stay focused on project outcomes, not internal work notes.
+- [x] Current live site URL is documented.
+- [x] Stale/dead deployment URL is documented as inactive.
+- [x] Contact/project proof links are present in README.
+
+## Deployment verification
+
+- [x] `https://www.im-khang.com/` returned HTTP `200` on 2026-06-09.
+- [x] `https://im-khang.com` redirected to `https://www.im-khang.com/`.
+- [x] Live HTML contained markers: `Khang`, `Hermes`, `AI`, `portfolio`.
+- [x] Old `https://01-agentic-portfolio-site.vercel.app/` returned Vercel `DEPLOYMENT_NOT_FOUND` and should not be used as active URL.
 
 ## Repository hygiene
 
-- [ ] Repo keeps case-study notes only.
-- [ ] No source code files remain in the public repo.
-- [ ] No generated images or screenshots remain in the public repo.
-- [ ] No local scripts or audit artifacts remain in the public repo.
-- [ ] README explains AI agent + Open Design workflow clearly.
+- [x] Repo keeps public proof/docs only.
+- [x] README explains AI agent + Open Design workflow clearly.
+- [x] Prompting/Hermes usage documented in `ai_agents/prompts.md`.
+- [x] Workflow documented in `ai_agents/workflow.md`.
+- [x] Case result documented in `reports/CASE_RESULT.md`.
 
 ## Human review
 
-- [ ] Claims stay tied to visible evidence.
-- [ ] No private local paths are exposed in public content.
+- [x] Claims stay tied to visible evidence.
+- [x] No private local paths exposed in public content.
+- [x] Claim boundary says no backend systems, paid client delivery, production automations, or enterprise integrations unless proven.
